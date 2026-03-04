@@ -19,9 +19,3 @@ class Parc:
         else:
             self.liste_voitures.append(voiture)
             print(f"places libres {self.calculerNbrPlacesLibres()}")
-
-
-
-
-        else:
-            self.liste_voitures.append(voiture)
