@@ -19,3 +19,10 @@ class Parc:
         else:
             self.liste_voitures.append(voiture)
             print(f"places libres {self.calculerNbrPlacesLibres()}")
+    def sortir_voiture(self,voiture):
+        if voiture in self.liste_voitures:
+            self.liste_voitures.remove(voiture)
+            print("la voiture est sortira dans le parc")
+            print(f"places libres {self.calculerNbrPlacesLibres()}")
+        else:
+            print("voiture non existe")
