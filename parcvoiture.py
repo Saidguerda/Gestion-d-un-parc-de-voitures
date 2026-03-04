@@ -28,3 +28,5 @@ class Parc:
             print("voiture non existe")
     def calculerNbrPlacesLibres(self):
         return self.capacite - len(self.liste_voitures)
+parc = Parc(2,"29 Clarion Road",3)
+
