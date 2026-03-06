@@ -32,5 +32,9 @@ parc = Parc(2,"29 Clarion Road",3)
 v1 = Voiture("A123","Toyota","Rouge")
 v2 = Voiture("B199","Honda","Blue")
 v3 = Voiture("C144","Bmw","vert")
+parc.entrer_voiture(v1)
+parc.entrer_voiture(v2)
+parc.entrer_voiture(v3)
+parc.sortir_voiture(v1)
 
 
